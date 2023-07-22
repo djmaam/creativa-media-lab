@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import favicon from '../../static/favicon-32x32.svg';
+import favicon from '../../static/favicon.ico';
 
 const SEO = props => (
   <StaticQuery
@@ -25,7 +25,7 @@ const SEO = props => (
 );
 
 SEO.defaultProps = {
-  lang: 'en',
+  lang: 'es',
   meta: [],
   keywords: []
 };

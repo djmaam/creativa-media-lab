@@ -6,21 +6,14 @@
         "mobile": "/images/logo/logo-mobile.svg",
         "desktop": "/images/logo/logo.svg",
         "desktop_height": "36px",
-        "alt": "Serif - A Gatsby Business Theme"
+        "alt": "Creativa Media Lab"
     },
     "homepage_meta_tags": {
-        "meta_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
-        "meta_og_title": "Gatsby Serif Theme",
+        "meta_description": "Laboratorio de ideas creativas. Marketing y diseño para marcas con propósito. Resultados con la mejor estrategia digital posible.",
+        "meta_og_title": "Creativa Media Lab | Agencia de Marketing Digital | RRSS | Diseño Gráfico",
         "meta_og_type": "website",
-        "meta_og_url": "https://gatsby-serif.netlify.app/",
+        "meta_og_url": "https://creativamedialab.ar/",
         "meta_og_image": "https://www.zerostatic.io/theme/gatsby-serif/gatsby-serif-screenshot.png",
-        "meta_og_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
-        "meta_twitter_card": "summary",
-        "meta_twitter_site": "@zerostaticio",
-        "meta_twitter_creator": "@zerostaticio"
-    },
-    "footer": {
-        "copyright_text": "Free Gatsby theme by",
-        "copyright_link": "https://www.zerostatic.io"
+        "meta_og_description": "Laboratorio de ideas creativas. Marketing y diseño para marcas con propósito. Resultados con la mejor estrategia digital posible."
     }
 }

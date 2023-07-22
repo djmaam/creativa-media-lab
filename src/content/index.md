@@ -1,10 +1,14 @@
 ---
 title: 'Home'
-intro_image: "/images/illustrations/pointing.svg"
-intro_image_absolute: true
+intro_image: "/images/illustrations/home.svg"
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Gatsby Business Theme.
+# Laboratorio de ideas creativas
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+## #WeAreCreativa
+
+Marketing y diseño para marcas con propósito.
+Resultados con la mejor estrategia digital posible.
+

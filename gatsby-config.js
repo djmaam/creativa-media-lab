@@ -2,8 +2,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif Theme',
-    description: 'my theme'
+    title: 'Creativa Media Lab',
+    description: 'Agencia de Marketing Digital | RRSS | Diseño Gráfico'
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -43,7 +43,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          'Playfair+Display:400,700'
+          'Montserrat:400,700',
+          'Quicksand:400,700'
         ],
         display: 'swap'
       }

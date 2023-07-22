@@ -10,7 +10,7 @@
     padding-bottom: 140px;
   }
   h1 {
-    color: $black;
+    color: $secondary;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
@@ -24,10 +24,10 @@
   }
   h2 {
     width: 80%;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     line-height: 1.4;
     margin-bottom: 30px;
-    color: $black;
+    color: $tertiary;
     font-family: $font-family-base;
   }
   p {

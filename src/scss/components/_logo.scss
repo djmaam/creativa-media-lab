@@ -1,10 +1,13 @@
 .logo {
   display: none;
+  margin-left: 60px;
   @include media-breakpoint-up(sm) {
     display: block;
   }
   img {
     max-width: unset;
+    transform: scale(7);
+    padding-top: 1px;
   }
   a {
     display: block;
@@ -22,6 +25,7 @@
   img {
     width: 100%;
     height: auto;
+    transform: scale(3);
   }
   a {
     display: block;

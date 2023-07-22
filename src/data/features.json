@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Estrategia de enfoque",
+    "description": "Los resultados se logran con estrategias acertadas y un plan de acción apegado a tu propósito de marca.",
     "image": "/images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Estudio de diseño",
+    "description": "Te ayudamos a crear tu identidad de marca. Además, te ofrecemos soluciones visuales para tus necesidades.",
     "image": "/images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Social Media - RRSS",
+    "description": "Te apoyamos a tener redes de alto impacto. Creando estrategia, contenido, diseño y acciones de crecimiento.",
     "image": "/images/features/noun_3d modeling_1885342.svg"
   }
 ]

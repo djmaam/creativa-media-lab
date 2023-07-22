@@ -5,6 +5,7 @@ const Call = props => {
   const data = useStaticQuery(graphql`
     query ContactQuery {
         contactJson {
+          whatsapp
           phone
           email
           contact_button_link
@@ -17,9 +18,9 @@ const Call = props => {
         {data.contactJson.phone && (
           <div className="call-phone">
             <strong>Phone: </strong>
-            {' '}
-            { data.contactJson.phone }
-            {' '}
+            <a href={`https://wa.me/${data.contactJson.whatsapp}`}>
+              { data.contactJson.phone }
+            </a>
           </div>
         )}
         {data.contactJson.email && (

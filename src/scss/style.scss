@@ -1,26 +1,34 @@
 // Colors
-$primary: #8036ca;
-$secondary: #ffe55f;
-$black: #2f2f41;
+$primary: #37005b;
+$primary-light: #b45edd;
+$secondary: #ff8189;
+$tertiary: #33c4b9;
+$black: #000000;
 $white: #ffffff;
 $white-offset: #f6f7ff;
 $steel: #5C5A5A;
 
 // Links
-$link-color: $primary;
+$link-color: $secondary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 20%);
+$link-hover-color: $primary-light;
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Playfair Display', serif, -apple-system;
+$font-family-base: 'Quicksand', serif, -apple-system;
+$font-family-heading: 'Montserrat', serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: $primary;
 $sub-footer-text-color: $white;
+
+// Strip
+$strip-background-color: lighten($tertiary, 40%);
+
+// Call
+$call-background-color: lighten($tertiary, 40%);
 
 // Bootstrap
 @import 'bootstrap-variables';
@@ -58,7 +66,7 @@ $sub-footer-text-color: $white;
 @import 'pages/services/page-services-single';
 
 body {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.2;
   font-family: $font-family-base;
   @include media-breakpoint-up(md) {

@@ -1,12 +1,17 @@
 .strip {
-  background: white;
+  background: $white;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .strip-white {
-  background-color: white;
+  background-color: $white;
 }
-.strip-grey {
-  background-color: $white-offset;
+.strip-light {
+  background-color: $strip-background-color;
 }
 .strip-diagonal {
   transform: skewY(5deg);
